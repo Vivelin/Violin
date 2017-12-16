@@ -3,7 +3,7 @@ image: Visual Studio 2017
 dotnet_csproj:
   patch: true
   file: '**\*.csproj'
-  version: '{version}'
+  version: '{version}-{build}'
   package_version: '{version}-{build}'
   assembly_version: '{version}'
   file_version: '{version}'
